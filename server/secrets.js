@@ -1,7 +1,8 @@
-module.exports = {
+  module.exports = {
   dataStorage:{
-        user:"",
-        pass:"",
-        dbName:"",
-        host:'',
+    user:"",
+    pass:"",
+    dbName:"",
+    host:'',
+  }
 };
