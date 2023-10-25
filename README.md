@@ -2,7 +2,7 @@
 An Open source T&amp;A software.
 
 ## Want to contribute? Check out the [Issues Screen](https://github.com/matatacmca/OpenTime/issues)
-Please create a pull request linked to an issue. Don not commit to master
+Please create a pull request linked to an issue. Do not commit to master
 
 ## Host your own instance
 ### Installation
@@ -12,7 +12,9 @@ Using a console:
 3. Clone the repository `git clone https://github.com/matatacmca/OpenTime.git`
 4. Ensure nodejs is installed on your sysem. You can validate nodejs is installed by typing `node --version`. This guide was built using v20.9.0. on Windows 10 X64
 5. Ensure Node Package Manager (npm) is installed. You can validate npm is installed by typing `npm--version`. This guide was built using 10.1.0 on Windows 10 X64
-6. Install node dependancies. `npm install`
+6. navigate to the newly created 'OpenTime' folder `cd OpenTime`.
+1. Install Server Node Dependencies: Navigate to the server folder, `cd  server` followed by `npm install`.
+2. Install Client Node Dependencies: To return to the OpenTime Folder,  `cd ..\` then, `cd client` and lastly `npm install`.
 
 ### Datastore Configuration
 
