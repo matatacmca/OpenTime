@@ -5,6 +5,8 @@ An Open source T&amp;A software.
 Please create a pull request linked to an issue. Do not commit to master
 
 ## Host your own instance
+This guide was built using the dependancy versions. Should installation fail, please update README.md with detailed process changes and submit a pull request
+
 ### Installation
 Using a console:
 1. Navigate to the folder using the `cd` command.
@@ -13,8 +15,9 @@ Using a console:
 4. Ensure nodejs is installed on your sysem. You can validate nodejs is installed by typing `node --version`. This guide was built using v20.9.0. on Windows 10 X64
 5. Ensure Node Package Manager (npm) is installed. You can validate npm is installed by typing `npm--version`. This guide was built using 10.1.0 on Windows 10 X64
 6. navigate to the newly created 'OpenTime' folder `cd OpenTime`.
-1. Install Server Node Dependencies: Navigate to the server folder, `cd  server` followed by `npm install`.
-2. Install Client Node Dependencies: To return to the OpenTime Folder,  `cd ..\` then, `cd client` and lastly `npm install`.
+7. Install node dependencies. `npm install`
+8. Install Server Node Dependencies: Navigate to the server folder, `cd  server` followed by `npm install`.
+9. Install Client Node Dependencies: To return to the OpenTime Folder,  `cd ..\` then, `cd client` and lastly `npm install`.
 
 ### Datastore Configuration
 
